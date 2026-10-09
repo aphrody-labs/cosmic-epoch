@@ -1,0 +1,13 @@
+# Build Windows des apps COSMIC sur les forks aphrody-labs (même révision que l'epoch-1.10.0).
+[build]
+target-dir = "C:/cosmic/target"
+jobs = 12
+
+[patch."https://github.com/pop-os/libcosmic"]
+libcosmic = { git = "https://github.com/aphrody-labs/libcosmic", rev = "5a8bd9482a35ae94c1e54edf77b331c6b970f170" }
+cosmic-config = { git = "https://github.com/aphrody-labs/libcosmic", rev = "5a8bd9482a35ae94c1e54edf77b331c6b970f170" }
+cosmic-theme = { git = "https://github.com/aphrody-labs/libcosmic", rev = "5a8bd9482a35ae94c1e54edf77b331c6b970f170" }
+
+# Branche win32 du fork aphrody-labs/cosmic-files (worktree local C:/cosmic/.wt/cosmic-files) : chemins OsStr sans OsStrExt unix.
+[patch."https://github.com/pop-os/cosmic-files.git"]
+cosmic-files = { git = "https://github.com/aphrody-labs/cosmic-files", branch = "win32" }
