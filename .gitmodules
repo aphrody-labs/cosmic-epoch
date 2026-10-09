@@ -1,124 +1,136 @@
 [submodule "cosmic-session"]
     path = cosmic-session
-    url = https://github.com/pop-os/cosmic-session
+	url = https://github.com/aphrody-labs/cosmic-session
     branch = master
 [submodule "cosmic-comp"]
     path = cosmic-comp
-    url = https://github.com/pop-os/cosmic-comp
+	url = https://github.com/aphrody-labs/cosmic-comp
     branch = master
 [submodule "cosmic-panel"]
     path = cosmic-panel
-    url = https://github.com/pop-os/cosmic-panel
+	url = https://github.com/aphrody-labs/cosmic-panel
     branch = master
 [submodule "cosmic-applets"]
     path = cosmic-applets
-    url = https://github.com/pop-os/cosmic-applets
+	url = https://github.com/aphrody-labs/cosmic-applets
     branch = master
 [submodule "cosmic-applibrary"]
 	path = cosmic-app-library
-    url = https://github.com/pop-os/cosmic-applibrary
+	url = https://github.com/aphrody-labs/cosmic-app-library
     branch = master
 [submodule "cosmic-launcher"]
     path = cosmic-launcher
-    url = https://github.com/pop-os/cosmic-launcher
+	url = https://github.com/aphrody-labs/cosmic-launcher
     branch = master
 [submodule "simple-wrapper"]
     path = simple-wrapper
-    url = https://github.com/pop-os/simple-wrapper
+	url = https://github.com/aphrody-labs/simple-wrapper
     branch = master
 [submodule "cosmic-settings"]
     path = cosmic-settings
-    url = https://github.com/pop-os/cosmic-settings
+	url = https://github.com/aphrody-labs/cosmic-settings
     branch = master
 [submodule "cosmic-settings-daemon"]
     path = cosmic-settings-daemon
-    url = https://github.com/pop-os/cosmic-settings-daemon
+	url = https://github.com/aphrody-labs/cosmic-settings-daemon
     branch = master
 [submodule "xdg-desktop-portal-cosmic"]
     path = xdg-desktop-portal-cosmic
-    url = https://github.com/pop-os/xdg-desktop-portal-cosmic.git
+	url = https://github.com/aphrody-labs/xdg-desktop-portal-cosmic
     branch = master
 [submodule "cosmic-osd"]
     path = cosmic-osd
-    url = https://github.com/pop-os/cosmic-osd.git
+	url = https://github.com/aphrody-labs/cosmic-osd
     branch = master
 [submodule "cosmic-bg"]
     path = cosmic-bg
-    url = https://github.com/pop-os/cosmic-bg.git
+	url = https://github.com/aphrody-labs/cosmic-bg
     branch = master
 [submodule "cosmic-workspaces-epoch"]
     path = cosmic-workspaces-epoch
-    url = https://github.com/pop-os/cosmic-workspaces-epoch/
+	url = https://github.com/aphrody-labs/cosmic-workspaces-epoch
     branch = master
 [submodule "cosmic-notifications"]
     path = cosmic-notifications
-    url = https://github.com/pop-os/cosmic-notifications
+	url = https://github.com/aphrody-labs/cosmic-notifications
     branch = master
 [submodule "cosmic-icons"]
     path = cosmic-icons
-    url = https://github.com/pop-os/cosmic-icons.git
+	url = https://github.com/aphrody-labs/cosmic-icons
     branch = master
 [submodule "cosmic-greeter"]
     path = cosmic-greeter
-    url = https://github.com/pop-os/cosmic-greeter
+	url = https://github.com/aphrody-labs/cosmic-greeter
     branch = master
 [submodule "cosmic-screenshot"]
     path = cosmic-screenshot
-    url = https://github.com/pop-os/cosmic-screenshot
+	url = https://github.com/aphrody-labs/cosmic-screenshot
     branch = master
 [submodule "cosmic-edit"]
     path = cosmic-edit
-    url = https://github.com/pop-os/cosmic-edit
+	url = https://github.com/aphrody-labs/cosmic-edit
     branch = master
 [submodule "cosmic-term"]
     path = cosmic-term
-    url = https://github.com/pop-os/cosmic-term.git
+	url = https://github.com/aphrody-labs/cosmic-term
     branch = master
 [submodule "cosmic-randr"]
     path = cosmic-randr
-    url = https://github.com/pop-os/cosmic-randr.git
+	url = https://github.com/aphrody-labs/cosmic-randr
     branch = master
 [submodule "cosmic-files"]
     path = cosmic-files
-    url = https://github.com/pop-os/cosmic-files.git
+	url = https://github.com/aphrody-labs/cosmic-files
     branch = master
 [submodule "cosmic-store"]
     path = cosmic-store
-    url = https://github.com/pop-os/cosmic-store.git
+	url = https://github.com/aphrody-labs/cosmic-store
     branch = master
 [submodule "cosmic-wallpapers"]
 	path = cosmic-wallpapers
-	url = https://github.com/pop-os/cosmic-wallpapers.git
+	url = https://github.com/aphrody-labs/cosmic-wallpapers
 	branch = master
 [submodule "cosmic-idle"]
 	path = cosmic-idle
-	url = https://github.com/pop-os/cosmic-idle.git
+	url = https://github.com/aphrody-labs/cosmic-idle
 	branch = master
 [submodule "cosmic-player"]
 	path = cosmic-player
-	url = https://github.com/pop-os/cosmic-player.git
+	url = https://github.com/aphrody-labs/cosmic-player
 	branch = master
 [submodule "cosmic-initial-setup"]
 	path = cosmic-initial-setup
-	url = https://github.com/pop-os/cosmic-initial-setup
+	url = https://github.com/aphrody-labs/cosmic-initial-setup
 	branch = master
 [submodule "pop-launcher"]
 	path = pop-launcher
-	url = https://github.com/pop-os/launcher.git
+	url = https://github.com/aphrody-labs/launcher
 	branch = master
 [submodule "cosmic-monitor"]
 	path = cosmic-monitor
-	url = https://github.com/pop-os/cosmic-monitor.git
+	url = https://github.com/aphrody-labs/cosmic-monitor
 	branch = master
 [submodule "cosmic-sound-theme"]
 	path = cosmic-sound-theme
-	url = https://github.com/pop-os/cosmic-sound-theme.git
+	url = https://github.com/aphrody-labs/cosmic-sound-theme
 	branch = master
 [submodule "cosmic-osk"]
 	path = cosmic-osk
-	url = https://github.com/pop-os/cosmic-osk
+	url = https://github.com/aphrody-labs/cosmic-osk
 	branch = master
 [submodule "cosmic-viewer"]
 	path = cosmic-viewer
-	url = https://github.com/pop-os/cosmic-viewer.git
+	url = https://github.com/aphrody-labs/cosmic-viewer
 	branch = master
+[submodule "libcosmic"]
+	path = libcosmic
+	url = https://github.com/aphrody-labs/libcosmic
+[submodule "iced"]
+	path = iced
+	url = https://github.com/aphrody-labs/iced
+[submodule "cosmic-text"]
+	path = cosmic-text
+	url = https://github.com/aphrody-labs/cosmic-text
+[submodule "cosmic-protocols"]
+	path = cosmic-protocols
+	url = https://github.com/aphrody-labs/cosmic-protocols
