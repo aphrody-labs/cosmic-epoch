@@ -2,3 +2,4 @@
 cosmic-sysext
 *_build/target/
 /.wt/
+/target/
