@@ -1,13 +1,12 @@
-# Build Windows des apps COSMIC sur les forks aphrody-labs (même révision que l'epoch-1.10.0).
-[build]
-target-dir = "C:/cosmic/target"
-jobs = 12
+# Windows build of the COSMIC apps on the aphrody-labs forks. Opt-in, never picked up implicitly (Linux and Redox builds
+# use bun-os factory/os/rust-desktop/cargo-patch.toml):
+#   cargo build --config ../.cargo/windows.toml   (target dir: CARGO_TARGET_DIR, jobs: the factory lane)
 
 [patch."https://github.com/pop-os/libcosmic"]
 libcosmic = { git = "https://github.com/aphrody-labs/libcosmic", rev = "5a8bd9482a35ae94c1e54edf77b331c6b970f170" }
 cosmic-config = { git = "https://github.com/aphrody-labs/libcosmic", rev = "5a8bd9482a35ae94c1e54edf77b331c6b970f170" }
 cosmic-theme = { git = "https://github.com/aphrody-labs/libcosmic", rev = "5a8bd9482a35ae94c1e54edf77b331c6b970f170" }
 
-# Branche win32 du fork aphrody-labs/cosmic-files (worktree local C:/cosmic/.wt/cosmic-files) : chemins OsStr sans OsStrExt unix.
+# win32 branch of the aphrody-labs/cosmic-files fork: OsStr paths without the unix OsStrExt.
 [patch."https://github.com/pop-os/cosmic-files.git"]
 cosmic-files = { git = "https://github.com/aphrody-labs/cosmic-files", branch = "win32" }
